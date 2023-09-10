@@ -76,7 +76,7 @@ function reducer(state, { type, payload }) {
             computation = prev / current;
             break;
             default:
-                break;
+                
         }
 
         
@@ -122,7 +122,7 @@ function reducer(state, { type, payload }) {
       };
 
       default:
-        break;
+        
   }
 }
 
