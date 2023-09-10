@@ -11,6 +11,7 @@ export const ACTIONS = {
   EVALUATE: "EVALUATE",
 };
 
+
 function reducer(state, { type, payload }) {
   switch (type) {
     case ACTIONS.ADD_DIGIT:
@@ -74,7 +75,11 @@ function reducer(state, { type, payload }) {
           case "÷":
             computation = prev / current;
             break;
+            default:
+                break;
         }
+
+        
         return computation.toString();
       }
 
@@ -115,6 +120,9 @@ function reducer(state, { type, payload }) {
         operation: null,
         currentOperand: evaluate(state),
       };
+
+      default:
+        break;
   }
 }
 
