@@ -1,11 +1,17 @@
-import Calculator from "./projectscomponents/calculatorprojectcomponents/Calculator";
+// import TodoWrapper from "./projectcomponentstodolist/TodoWrapper";
+// import Calculator from "./projectscomponents/calculatorprojectcomponents/Calculator";
+
+import { KenshinTodoWrapper } from "./kenshitodolist/KenshinTodoWrapper";
+import TodoTwo from "./projectcomponentstodolist/TodoTwo";
 
 
 function App() {
   return (
     <>
-    <Calculator />
-
+    {/* <Calculator /> */}
+{/* <TodoWrapper /> */}
+{/* <TodoTwo /> */}
+<KenshinTodoWrapper />
     </>
   )
 }
