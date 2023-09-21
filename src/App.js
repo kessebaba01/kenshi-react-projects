@@ -1,8 +1,10 @@
 // import TodoWrapper from "./projectcomponentstodolist/TodoWrapper";
 // import Calculator from "./projectscomponents/calculatorprojectcomponents/Calculator";
 
-import { KenshinTodoWrapper } from "./kenshitodolist/KenshinTodoWrapper";
-import TodoTwo from "./projectcomponentstodolist/TodoTwo";
+import MoviesCompApp from "./moviescomp/MoviesCompApp";
+
+// import { KenshinTodoWrapper } from "./kenshitodolist/KenshinTodoWrapper";
+// import TodoTwo from "./projectcomponentstodolist/TodoTwo";
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
     {/* <Calculator /> */}
 {/* <TodoWrapper /> */}
 {/* <TodoTwo /> */}
-<KenshinTodoWrapper />
+{/* <KenshinTodoWrapper /> */}
+<MoviesCompApp />
     </>
   )
 }
